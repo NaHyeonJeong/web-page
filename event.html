@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>이벤트</title>
+    <link href="style2.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="event_page">
+    <div>
+        <header>
+            <h3>모든 문제의 정답을 맞추시는 분중 추첨을 통해서 소정의 상품을 드립니다.</h3>
+            <p>※중복선택 불가능※</p>
+        </header>
+        <article>
+            <table border="1" id="event_table">
+                <tr>
+                    <td id="first">이 음식은 무슨 음식일까요?<br />이 음식은 요즘 10대에서 인기를 끌고 있는<br />음식 중 하나 입니다.</td>
+                    <td id="second">이 음식은 무슨 음식일까요?<br />이 음식은 요즘 20대에서 인기를 끌고 있는 <br />음식 중 하나 입니다.</td>
+                    <td id="third">이 음식은 무슨 음식일까요?<br />이 음식은 요즘 60대 이상에서 인기를 끌고 있는<br /> 음식 중 하나 입니다.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <form method="post">
+                            <input type="checkbox" id="떡볶이" value="" /><label for="떡볶이">엽기떡볶이</label><br />
+                            <input type="checkbox" id="kimchi" value="" /><label for="kimchi">김치찌개</label><br />
+                            <input type="checkbox" id="sushi" value="" /><label for="sushi">초밥</label><br />
+                        </form>
+                    </td>
+                    <td>
+                        <form method="post">
+                            <input type="checkbox" id="tuna" value="" /><label for="tuna">참치회덮밥</label><br />
+                            <input type="checkbox" id="salmon" value="" /><label for="salmon">연어회덮밥</label><br />
+                            <input type="checkbox" id="albab" value="" /><label for="albab">알밥</label><br />
+                        </form>
+                    </td>
+                    <td>
+                        <form method="post">
+                            <input type="checkbox" id="vegetable" value="" /><label for="vegetable">야채죽</label><br />
+                            <input type="checkbox" id="beef" value="" /><label for="beef">소고기죽</label><br />
+                            <input type="checkbox" id="abalone" value="" /><label for="abalone">전복죽</label><br />
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="fourth">이 음식은 무슨 음식일까요?<br />이 음식은 겨울에 자주 먹는 길거리<br />음식 중 하나 입니다.</td>
+                    <td id="fifth">이 음식은 무슨 음식일까요?<br />이 음식은 가을에 제철이 재료를 가지고 만든 <br />음식 중 하나 입니다.</td>
+                    <td id="sixth">이 음식은 무슨 음식일까요?<br />이 음식은 요즘 30대에서 인기를 끌고 있는<br /> 음식 중 하나 입니다.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <form method="post">
+                            <input type="checkbox" id="단팥빵" value="" /><label for="단팥빵">단팥빵</label><br />
+                            <input type="checkbox" id="plain" value="" /><label for="plain">식빵</label><br />
+                            <input type="checkbox" id="steamed" value="" /><label for="steamed">호빵</label><br />
+                        </form>
+                    </td>
+                    <td>
+                        <form method="post">
+                            <input type="checkbox" id="seafood" value="" /><label for="seafood">해물탕</label><br />
+                            <input type="checkbox" id="crab" value="" /><label for="crab">꽃게탕</label><br />
+                            <input type="checkbox" id="rockfish" value="" /><label for="rockfish">우럭탕</label><br />
+                        </form>
+                    </td>
+                    <td>
+                        <form method="post">
+                            <input type="checkbox" id="seonji" value="" /><label for="seonji">선지 해장국</label><br />
+                            <input type="checkbox" id="bone" value="" /><label for="bone">뼈다귀 해장국</label><br />
+                            <input type="checkbox" id="bean" value="" /><label for="bean">콩나물 해장국</label><br />
+                        </form>
+                    </td>
+                </tr>
+            </table>
+            <form id="submit" method="post">
+                <input type="submit" value="답 제출" id="submit_button" style="color:darkgreen;font-weight:600;" />
+            </form>
+        </article>
+    </div>
+</body>
+</html>

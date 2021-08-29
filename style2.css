@@ -1,0 +1,198 @@
+﻿/*age_recipe.html*/
+#age_recipe{
+    margin:5px 0;
+    width:100%;
+    background-color:aliceblue;
+}
+#age_recipe th{
+    padding:5px;
+    text-align:center;
+    font-size:14pt;
+    background-color:#ffdde5;
+}
+#age_recipe td{
+    padding:5px;
+    text-align:center;
+    font-size:14pt;
+}
+#age_recipe p{
+    margin:0;
+}
+#age_recipe span{
+    margin:0;
+}
+.age{
+    font-style:italic;
+    font-weight:600;
+}
+#age_recipe caption{
+    font-weight:600;
+    color:darkviolet;
+    margin:10px;
+    font-size:20pt;
+}
+.menu_name{
+    font-size:15pt; 
+    font-weight:600;
+    color:darkslategrey;
+}
+/*season_recipe.html*/
+#season_recipe{
+    margin:5px 0;
+    width:100%;
+    background-color:aliceblue;
+}
+#season_recipe th{
+    padding:5px; 
+    text-align:center; 
+    font-size:14pt;
+    background-color:#ffdde5;
+}
+#season_recipe td{
+    padding:5px;
+    text-align:center; 
+    font-weight:500; 
+    font-size:14pt;
+}
+#season_recipe caption{
+    font-weight:600;
+    color:darkviolet;
+    margin:10px; 
+    font-size:20pt;
+}
+.ready{
+    font-size:16pt;
+    font-weight:600;
+    color:darkolivegreen;
+}
+/*error.html & recently.html*/
+#error_page, #recently_page {
+    background-color: beige;
+}
+#error_page h1{
+    font-weight:600;
+    font-size:30pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:mediumblue;
+}
+#error_page span{
+    font-weight:500;
+    font-size:25pt;
+    color:red;
+}
+#error_page div, #recently_page div{
+    margin: 10% 20%;
+}
+#recently_page h1 {
+    font-size: 30pt;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#e7b4fd;
+    width:500px;
+}
+#recently_page h2{
+    font-size:26pt;
+    font-weight:600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#fd9df0;
+    width:630px;
+}
+/*login.html*/
+#login_page fieldset{
+    margin:20px 30px;
+}
+#login_page fieldset span{
+    display:inline-block;
+    vertical-align:middle;
+    width:120px;
+}
+#login_page fieldset input{
+    vertical-align:middle;
+}
+#login_page fieldset div{
+    margin:5px -2px;
+}
+/*join.html*/
+#join_page{
+    background-color:beige;
+}
+#join_page{
+    margin:30px;
+}
+#join_page fieldset span{
+    display:inline-block;
+    vertical-align:middle;
+    width:150px;
+}
+#join_page fieldset input {
+    vertical-align: middle;
+}
+#reset_button, #join_button{
+    margin:10px 0 0 0;
+}
+.bob{
+    width:155px;
+    position:relative;
+    left:-5px;
+}
+/*event.html*/
+#event_page div {
+    border: 3px solid purple;
+    border-radius: 40px;
+    margin: 0;
+    padding: 30px 30px 40px 30px;
+    background-color: #dde5ff;
+}
+#event_table{
+    margin:auto;
+}
+#event_table td{
+    padding:20px;
+}
+#first{
+    background-image:url(images/엽떡.jpg);
+    background-repeat:repeat; 
+    background-position: 25% 49%; 
+    color:white;
+}
+#second{
+    background-image:url(images/연어회덮밥.jpg); 
+    background-repeat:repeat;
+    background-position: 25% 49%;
+    color:yellow;
+}
+#third{
+    background-image:url(images/전복죽.jpg); 
+    background-repeat:repeat; 
+    background-position: 25% 49%;
+    color:black;
+}
+#fourth{
+    background-image:url(images/호빵.jpg);
+    background-repeat:repeat; 
+    background-position: 25% 49%;
+    color:yellow;
+}
+#fifth{
+    background-image:url(images/꽃게탕.jpg); 
+    background-repeat:repeat; 
+    background-position: 25% 49%;
+    color:chartreuse;
+}
+#sixth{
+    background-image:url(images/콩나물해장국.jpg); 
+    background-repeat:repeat; 
+    background-position: 25% 49%; 
+    color:white;
+}
+#submit_button{
+    margin:10px 0 0 90%;
+}
+#event_page h3, #event_page p{
+    text-align:center;
+}
+#event_page p{
+    font-size:12pt; 
+    font-weight:600; 
+    color:red;
+}
